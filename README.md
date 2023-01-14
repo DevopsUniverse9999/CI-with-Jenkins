@@ -2,6 +2,7 @@
 ![CI](https://user-images.githubusercontent.com/122671107/212466615-6abe9a79-8608-425f-8bde-4eae53c513b5.png)
 
 #Setting up the Jenkins Server
+
 sudo yum install wget -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
