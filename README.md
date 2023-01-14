@@ -3,8 +3,8 @@
 
 # Setting up the Jenkins Server
 
-sudo yum install wget -y
-sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+=>sudo yum install wget -y
+=>sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 sudo yum upgrade -y
 # Add required dependencies for the jenkins package
@@ -23,7 +23,7 @@ sudo su - ec2-user
 ==============================================
 ============== Notice Important =============
 after installed Jenkins make sure to vi /etc/passwd
-and change :/var/lib/jenkins:bin/bash
+=> and change :/var/lib/jenkins:bin/bash
 After intallation switch su - to be jenkins users . 
 
 # Configuartion of Jenkins Server
